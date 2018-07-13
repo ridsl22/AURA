@@ -1,0 +1,80 @@
+﻿<Window x:Class="Metrom.AURA.ViewLog.SelectRangeDlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Select Download Range" Height="480" Width="550" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" Background="Black" Loaded="Window_Loaded">
+	<Grid Margin="0,0,0,3">
+		<Grid.RowDefinitions>
+			<RowDefinition/>
+			<RowDefinition Height="Auto" MinHeight="66"/>
+		</Grid.RowDefinitions>
+
+		<Grid Grid.Row="0" Margin="40,12,0,12">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto" MinHeight="60"/>
+				<RowDefinition Height="Auto" MinHeight="120"/>
+			</Grid.RowDefinitions>
+
+			<RadioButton x:Name="rbUseRange_" Grid.Row="0" Foreground="White" Content="Use UTC date range:" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="rbUseRange_CheckedChanged" Unchecked="rbUseRange_CheckedChanged" Height="16" Width="124"/>
+
+			<GroupBox x:Name="gbSelectRange_" Grid.Row="1" Foreground="White" Header="Select Range" HorizontalAlignment="Left" VerticalAlignment="Top" Width="460" Height="150">
+				<Grid Margin="20,10,0,10">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="56"/>
+						<RowDefinition Height="Auto" MinHeight="52"/>
+					</Grid.RowDefinitions>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="Auto"/>
+						<ColumnDefinition Width="Auto"/>
+						<ColumnDefinition Width="Auto"/>
+					</Grid.ColumnDefinitions>
+
+					<Label Grid.Row="0" Grid.Column="0" Foreground="White" Content="From:" HorizontalAlignment="Right" VerticalAlignment="Center" Height="26" Margin="0,17,0,13" Width="40"/>
+					<DatePicker x:Name="rangeFromDate_" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Height="25" Margin="0,18,0,13" Width="102"/>
+					<Button x:Name="btnSetFromDateToLatest_" FontWeight="Bold" Grid.Row="0" Grid.Column="2" Content="Set to Latest" HorizontalAlignment="Left" VerticalAlignment="Center" Width="85" Margin="24,7,0,7" Click="btnSetFromDateToLatest_Click" Height="42"/>
+
+					<Label Grid.Row="1" Grid.Column="0" Content="To:" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,13" Height="26" Width="26"/>
+					<DatePicker x:Name="rangeToDate_" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Height="25" Margin="0,14,0,13" Width="102"/>
+					<Button x:Name="btnSetToDateToOldest_" Grid.Row="1" Grid.Column="2" Content="Set to Oldest" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="85" Margin="24,4,0,6" Click="btnSetToDateToOldest_Click" Height="42"/>
+				</Grid>
+			</GroupBox>
+
+			<RadioButton x:Name="rbUseCount_" Grid.Row="2" Content="Use count:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Unchecked="rbUseCount_CheckedChanged" Checked="rbUseCount_CheckedChanged" Margin="0,44,0,0" Height="16" Width="72"/>
+
+			<GroupBox x:Name="gbSelectCount_" Grid.Row="3" Header="Select Count" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="460" Margin="0,1,0,0" Height="119">
+				<Grid Margin="22,12,2,12">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="24"/>
+						<RowDefinition Height="24"/>
+						<RowDefinition Height="24"/>
+					</Grid.RowDefinitions>
+
+					<!--
+          The following RadioButton (and the third one, below) have their content set to an explicit label.
+          If this is not done - that is, if the RadioButton's Content property is set instead, which would
+          be the usual way to do it - then the content text will NOT gray out when the RadioButton is
+          disabled. Seems like a bug, but I'm not certain...
+          -->
+					<RadioButton x:Name="rbFixedCount_" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center">
+						<Label Content="Most recent 200" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+					</RadioButton>
+					<RadioButton x:Name="rbCustomCount_" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center">
+						<StackPanel Orientation="Horizontal" Height="27">
+							<Label Content="Custom:" Foreground="White" HorizontalAlignment="Left" Margin="0,0,0,1"/>
+							<TextBox HorizontalAlignment="Left" Height="23" TextWrapping="NoWrap" Text="400" VerticalAlignment="Bottom" Width="50" x:Name="tbCustomCount_"/>
+						</StackPanel>
+					</RadioButton>
+					<RadioButton x:Name="rbAllEntries_" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center">
+						<Label Content="All entries" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+					</RadioButton>
+				</Grid>
+			</GroupBox>
+		</Grid>
+
+		<StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,8,8" Width="162">
+			<Button Content="Ok" Margin="0,18,12,0" Name="btnOk_" Width="75" IsDefault="True" FontWeight="Bold" Click="btnOk_Click" />
+			<Button Content="Cancel" Margin="0,18,0,0" Name="btnCancel_" FontWeight="Bold" Width="75" IsCancel="True" />
+		</StackPanel>
+	</Grid>
+</Window>

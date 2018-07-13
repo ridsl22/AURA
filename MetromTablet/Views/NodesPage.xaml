@@ -1,0 +1,102 @@
+﻿<Page x:Class="MetromTablet.Views.NodesPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="900"
+	  MinHeight="700" MinWidth="900"
+	Title="NodesPage">
+
+	<Grid>
+		<Label x:Name="lblMetrom1" Content="Metrom" Grid.Row="0" HorizontalAlignment="Left" Margin="20,7,0,0" Width="116" Foreground="White" FontSize="24" FontWeight="Bold" Height="54" VerticalAlignment="Top"  />
+		<Label x:Name="lblRail" Content="Rail"  Grid.Row="0"  HorizontalAlignment="Left" Margin="115,0,0,0" Foreground="#ff4058" FontSize="24" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5,25,5,5" Width="52" Height="68" VerticalAlignment="Top"  />
+		<Button x:Name="btnAddNode" Content="Add Node" Command="{Binding AddNodeCommand}"  FontSize="16" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="88" Height="46" Margin="10,66,0,0"/>
+		<Button x:Name="btnSend" Content="Send"  FontSize="16" FontWeight="Bold"  HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="88" Height="46" Margin="0,0,10,10" />
+		<Button x:Name="btnSave" Content="Save"  FontSize="16" FontWeight="Bold"  HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="88" Height="46" Margin="0,0,110,10" />
+		<DataGrid x:Name="dgNodes" ItemsSource="{Binding NodesList}"  SelectedItem="{Binding Path=SelectedNode, Mode=TwoWay}" 
+				  ColumnWidth="*" Margin="10,121,10,66" AutoGenerateColumns="False" RowHeight="49" IsReadOnly="True" IsSynchronizedWithCurrentItem="True"
+				  CurrentCell="{Binding CellInfo, Mode=OneWayToSource}">
+			<DataGrid.InputBindings>
+				<MouseBinding
+					MouseAction="LeftDoubleClick"
+					Command="{Binding ConfigInputCommand}"
+					CommandParameter="{Binding NodesList/}"/>
+			</DataGrid.InputBindings>
+			<DataGrid.Columns>
+				<DataGridTextColumn 
+                                x:Name="ID"
+                                Header="Nodes"
+					
+                                Foreground="Black"
+                                Binding="{Binding Id}"
+                                DisplayIndex="0"
+								>
+
+				</DataGridTextColumn>
+				<DataGridTextColumn
+                                Header="IN0"
+								Binding="{Binding In1.Name}"
+								/>
+				<DataGridTextColumn
+                                Header="IN1" 
+								Binding="{Binding In2.Name}"
+								/>
+				<DataGridTextColumn
+                                Header="IN2" 
+								Binding="{Binding In3.Name}"
+								/>
+				<DataGridTextColumn
+                                Header="IN3" 
+								Binding="{Binding In4.Name}"
+								/>
+				<DataGridTextColumn
+                                Header="IN4" 
+								Binding="{Binding In5.Name}"
+								/>
+				<DataGridTextColumn
+                                Header="IN5" 
+								Binding="{Binding In6.Name}"
+								/>
+				<DataGridTextColumn
+                                Header="IN6" 
+								Binding="{Binding In7.Name}"
+								/>
+				<DataGridTextColumn
+                                Header="IN7" 
+								Binding="{Binding In8.Name}"
+								/>
+				<DataGridTextColumn
+                                Header="IN8" 
+								Binding="{Binding In9.Name}"
+								/>
+				<DataGridTextColumn
+                                Header="IN9" 
+								Binding="{Binding In10.Name}"
+								/>
+				<DataGridTemplateColumn Width="88">
+					<DataGridTemplateColumn.CellTemplate>
+						<DataTemplate>
+							<Button Content="Delete" Command="{Binding Path=DataContext.DeleteCommand,       
+								 RelativeSource= {RelativeSource FindAncestor, AncestorType={x:Type DataGrid}}}">
+							</Button>
+						</DataTemplate>
+					</DataGridTemplateColumn.CellTemplate>
+				</DataGridTemplateColumn>
+
+			</DataGrid.Columns>
+		</DataGrid>
+		<Button x:Name="btnBack" Content="Back" Command="{Binding BackCommand}"  FontSize="16" FontWeight="Bold"  HorizontalAlignment="Right" VerticalAlignment="Top" Width="88" Height="46" Margin="0,66,10,0"/>
+		<StackPanel x:Name="configPanel" Visibility="Hidden" HorizontalAlignment="Left" Height="400" Background="Black"  Margin="100,196,100,0" VerticalAlignment="Top" Width="700" Opacity="0.8" >
+			<Label x:Name="lblInfo" Content="{Binding Path=InputInfo, Mode=TwoWay}" Foreground="White" FontSize="22" HorizontalAlignment="Left" Width="672" Margin="28,0,0,0"/>
+			<Label Content="Name:" Foreground="White" FontSize="22" HorizontalAlignment="Left" Width="672" Margin="28,0,0,0"/>
+			<Label Content="Work/Travel" Foreground="White" FontSize="22" HorizontalAlignment="Left" Width="672" Margin="28,0,0,0"/>
+			<Label Content="Engine ON/OFF" Foreground="White" FontSize="22" HorizontalAlignment="Left" Width="672" Margin="28,0,0,0"/>
+			<Label Content="Cycle Count" Foreground="White" FontSize="22" HorizontalAlignment="Left" Width="672"  Margin="28,0,0,0"/>
+			<Label Content="Encoder Mode" Foreground="White" FontSize="22" HorizontalAlignment="Left" Width="672" Margin="28,0,0,0"/>
+			<Label Content="Analog Mode" Foreground="White" FontSize="22" HorizontalAlignment="Left" Width="672" Margin="28,0,0,0"/>
+			<Button Content="Save" HorizontalAlignment="Right" Width="115" Click="Button_Click"/>
+		</StackPanel>
+
+	</Grid>
+</Page>

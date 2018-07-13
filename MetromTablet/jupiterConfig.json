@@ -1,0 +1,97 @@
+[
+	{
+		"machineName": "PD 0000",
+		"encoderResolution": "50",
+		"wheelDiameter": "12.88345",
+		"direction": "1",
+		"clarDistance": "0.25",
+		"prodReportInterval": "15",
+		"nodes":
+		[
+			{
+				"id": "0",
+				"pin":
+				[
+					{
+						"id": "0",
+						"pinType": "3",
+						"logicLevel": "3.45",
+						"idleTime": "10",
+						"edge": "1",
+						"offset": "0",
+						"gain": "0",
+						"cycleType": "3" 
+						},
+					{
+						"id": "1",
+						"pinType": "3",
+						"logicLevel": "3.45",
+						"idleTime": "10",
+						"edge": "1",
+						"offset": "0",
+						"gain": "0",
+						"cycleType": "4" 
+						}
+				]
+			},
+			{
+				"id": "1",
+				"pin":
+				[
+					{
+						"id": "0",
+						"pinType": "4",
+						"logicLevel": "5.0",
+						"idleTime": "10",
+						"edge": "1",
+						"offset": "0",
+						"gain": "0",
+						"cycleType": "0"
+					}
+				]	
+			},
+			{
+				"id": "2",
+				"pin":
+				[
+					{
+						"id": "1",
+						"pinType": "2",
+						"logicLevel": "5.0",
+						"idleTime": "10",
+						"edge": "1",
+						"offset": "0",
+						"gain": "0",
+						"cycleType": "0"
+					},
+					{
+						"id": "2",
+						"pinType": "2",
+						"logicLevel": "5.0",
+						"idleTime": "10",
+						"edge": "1",
+						"offset": "0",
+						"gain": "0",
+						"cycleType": "0"
+					}
+				]	
+			},			
+			{
+				"id": "3",
+				"pin":
+				[
+					{
+						"id": "1",
+						"pinType": "1",
+						"logicLevel": "5.0",
+						"idleTime": "10",
+						"edge": "1",
+						"offset": "0",
+						"gain": "0",
+						"cycleType": "0"
+					}
+				]	
+			}
+		]
+	}
+]

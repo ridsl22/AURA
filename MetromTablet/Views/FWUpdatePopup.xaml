@@ -1,0 +1,12 @@
+﻿<Window x:Class="MetromTablet.Views.FWUpdatePopup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Update Firmware" Height="175" Width="600" ResizeMode="NoResize" ShowInTaskbar="False" WindowStartupLocation="CenterOwner" Background="Black" >
+	<Grid>
+		<ProgressBar x:Name="pbFWUpdate" HorizontalAlignment="Left" Height="40" Margin="99,79,0,0" VerticalAlignment="Top" Width="474"/>
+		<Button Name="btnBrowse" Content="Browse" FontSize="16" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="10,13,0,0" VerticalAlignment="Top" Width="75" Height="50" TouchDown="btnBrowse_TouchDown" Click="btnBrowse_Click"/>
+		<TextBox x:Name="tbFWUpdate" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="99,29,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="474"/>
+		<Button Name="btnUpdate" IsEnabled="False" Content="Update" FontSize="16" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top" Width="75" Height="50" Click="btnUpdate_Click" TouchDown="btnUpdate_TouchDown"/>
+		<TextBlock Text="{Binding ElementName=pbFWUpdate, Path=Value, StringFormat={}{0:0}%}" FontSize="24" TextAlignment="Center"  Foreground="Red" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="294,82,0,0" Height="37" Width="88" />
+	</Grid>
+</Window>

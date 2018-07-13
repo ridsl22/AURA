@@ -1,0 +1,55 @@
+﻿<Window x:Class="MetromTablet.Views.DiagConfigDlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Configure Diagnostic Settings" Height="468.14" Width="353.887" Loaded="Window_Loaded" Background="{DynamicResource AURABackgroundBrush}">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+
+		<Grid Grid.Row="0" Margin="40,12,0,0">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+
+			<Label Content="Enable Diagnostic Outputs / Features:" Grid.Row="0" Height="28" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" />
+
+			<CheckBox Grid.Row="1" Content="Accelerometer data" Height="22" HorizontalAlignment="Left" Name="cbEnableAccelOutput_" VerticalAlignment="Top" />
+			<CheckBox Grid.Row="2" Content="Peer data" Height="22" HorizontalAlignment="Left" Name="cbEnablePeerDataOutput_" VerticalAlignment="Top" />
+			<CheckBox Grid.Row="3" Content="Range data" Height="22" HorizontalAlignment="Left" Name="cbEnableRangeDataOutput_" VerticalAlignment="Top" />
+			<CheckBox Grid.Row="4" Content="Range debug" Height="22" HorizontalAlignment="Left" Name="cbEnableRangeDebugOutput_" VerticalAlignment="Top" />
+			<CheckBox Grid.Row="5" Content="GPS data" Height="22" HorizontalAlignment="Left" Name="cbEnableGPSDataOutput_" VerticalAlignment="Top" />
+			<CheckBox Grid.Row="6" Content="Kill GPS" Height="22" HorizontalAlignment="Left" Name="cbEnableKillGPS_" VerticalAlignment="Top" />
+			<CheckBox Grid.Row="7" Content="OA data" Height="22" HorizontalAlignment="Left" Name="cbEnableOADataOutput_" VerticalAlignment="Top" />
+			<CheckBox Grid.Row="8" Content="Kill beacon broadcast" Height="22" HorizontalAlignment="Left" Name="cbKillBeacon_" VerticalAlignment="Top" />
+			<CheckBox Grid.Row="9" Content="Ignore peer beacons" Height="22" HorizontalAlignment="Left" Name="cbIgnoreBeacons_" VerticalAlignment="Top" />
+			<CheckBox Grid.Row="10" Content="Don't discard questionable range data" Height="22" HorizontalAlignment="Left" Name="cbDoNotDiscardRangeData_" VerticalAlignment="Top" />
+			<CheckBox Grid.Row="11" Content="Send RCM scan data" Height="22" HorizontalAlignment="Left" Name="cbSendRCMScanData_" VerticalAlignment="Top" />
+			<CheckBox Grid.Row="12" Content="Send UIM DataUpdate" Height="22" HorizontalAlignment="Left" Name="cbSendUIMDataUpdate_" VerticalAlignment="Top" />
+			<CheckBox Grid.Row="13" Content="Disable no-motion alarm suppression" Height="22" HorizontalAlignment="Left" Name="cbDisableNoMotionNAS_" VerticalAlignment="Top" />
+			<CheckBox Grid.Row="14" Content="Exercise GPS math" Height="22" HorizontalAlignment="Left" Name="cbExerciseGPSMath_" VerticalAlignment="Top" />
+		</Grid>
+
+		<StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,12,12">
+			<Button Content="Ok" Height="23" HorizontalAlignment="Left" Name="btnOk_" VerticalAlignment="Top" Width="60" IsDefault="True" Click="btnOk_Click" />
+			<Button Content="Cancel" Height="23" HorizontalAlignment="Left" Name="btnCancel_" VerticalAlignment="Top" Width="60" Margin="12,0,0,0" IsCancel="True" />
+		</StackPanel>
+	</Grid>
+</Window>
+

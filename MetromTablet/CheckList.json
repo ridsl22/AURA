@@ -1,0 +1,25 @@
+[
+{
+	"version": "Daily Checklist",
+	"machineType": "HCTREAS",
+		"tasks":
+		[
+		{
+			"name": "000000000000000000",
+			"isChecked": "yes"
+		},
+		{
+			"name": "111111111111111111",
+			"isChecked": "yes"
+		},
+		{
+			"name": "22222222222222222",
+			"isChecked": " "
+		},
+		{
+			"name": "333333333333333333",
+			"isChecked": " "
+		}	
+		]
+}
+]

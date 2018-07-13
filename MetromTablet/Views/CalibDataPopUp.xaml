@@ -1,0 +1,43 @@
+﻿<Window x:Class="MetromTablet.CalibDataPopUp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Calibration Data"  Height="139" Width="300" Loaded="Window_Loaded" Background="Black">
+	<Grid>
+		<Grid Margin="12,12,0,0">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+
+			<Label Content="Gravity Offset" Foreground="White"  Grid.Row="0" Grid.Column="0" Height="28" HorizontalAlignment="Right" VerticalAlignment="Top" />
+			<Grid Grid.Row="0" Grid.Column="1">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto"/>
+					<ColumnDefinition Width="Auto"/>
+					<ColumnDefinition Width="Auto"/>
+				</Grid.ColumnDefinitions>
+
+				<TextBox Grid.Column="0" Height="23" HorizontalAlignment="Left" Name="tbGravOfsX_" VerticalAlignment="Top" Width="50" IsReadOnly="True" Text="-" HorizontalContentAlignment="Right" />
+				<TextBox Grid.Column="1" Height="23" HorizontalAlignment="Left" Name="tbGravOfsY_" Margin="6,0,0,0" VerticalAlignment="Top" Width="50" IsReadOnly="True" Text="-" HorizontalContentAlignment="Right" />
+				<TextBox Grid.Column="2" Height="23" HorizontalAlignment="Left" Name="tbGravOfsZ_" Margin="6,0,0,0" VerticalAlignment="Top" Width="50" IsReadOnly="True" Text="-" HorizontalContentAlignment="Right" />
+			</Grid>
+
+			<Label Content="Front Vector" Foreground="White" Grid.Row="1" Grid.Column="0" Height="28" HorizontalAlignment="Right" VerticalAlignment="Top" />
+			<Grid Grid.Row="1" Grid.Column="1">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto"/>
+					<ColumnDefinition Width="Auto"/>
+					<ColumnDefinition Width="Auto"/>
+				</Grid.ColumnDefinitions>
+
+				<TextBox Grid.Column="0" Height="23" HorizontalAlignment="Left" Name="tbFrontVecX_" VerticalAlignment="Top" Width="50" IsReadOnly="True" Text="-" HorizontalContentAlignment="Right" />
+				<TextBox Grid.Column="1" Height="23" HorizontalAlignment="Left" Name="tbFrontVecY_" Margin="6,0,0,0" VerticalAlignment="Top" Width="50" IsReadOnly="True" Text="-" HorizontalContentAlignment="Right" />
+				<TextBox Grid.Column="2" Height="23" HorizontalAlignment="Left" Name="tbFrontVecZ_" Margin="6,0,0,0" VerticalAlignment="Top" Width="50" IsReadOnly="True" Text="-" HorizontalContentAlignment="Right" />
+			</Grid>
+		</Grid>
+	</Grid>
+</Window>

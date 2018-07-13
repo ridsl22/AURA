@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MachineTypes>
+    <Type id="1" machineType="HCTREAS" nodesNumber="2">
+		<Node name="0">
+			<Pin pinName="0">
+				<LogicLevel value="5.0">
+				<IdleTime value="10"/>
+				<Edge value="Rising"/>
+				<Offset value="2.0"/>
+				<Gain value="1"/>
+			<Pin/>
+			<Pin pinName="1">
+				<LogicLevel value="5.0">
+				<IdleTime value="10"/>
+				<Edge value="Rising"/>
+				<Offset value="2.0"/>
+				<Gain value="1"/>
+			<Pin/>
+			<Pin pinName="7">
+				<LogicLevel value="0.0">
+				<IdleTime value="10"/>
+				<Edge value="Rising"/>
+				<Offset value="2.0"/>
+				<Gain value="1"/>
+			<Pin/>
+		</Node>
+		
+		<Node name="1">
+			<Pin pinName="0">
+				<LogicLevel value="5.0">
+				<IdleTime value="10"/>
+				<Edge value="Rising"/>
+				<Offset value="6"/>
+				<Gain value="10"/>
+			<Pin/>
+			<Pin pinName="1">
+				<LogicLevel value="5.0">
+				<IdleTime value="10"/>
+				<Edge value="Rising"/>
+				<Offset value="6"/>
+				<Gain value="10"/>
+			<Pin/>
+			<Pin pinName="2">
+				<LogicLevel value="5.0">
+				<IdleTime value="10"/>
+				<Edge value="Rising"/>
+				<Offset value="6"/>
+				<Gain value="10"/>
+			<Pin/>
+			<Pin pinName="3">
+				<LogicLevel value="5.0">
+				<IdleTime value="10"/>
+				<Edge value="Rising"/>
+				<Offset value="6"/>
+				<Gain value="10"/>
+			<Pin/>
+			<Pin pinName="7">
+				<LogicLevel value="0.0">
+				<IdleTime value="10"/>
+				<Edge value="Rising"/>
+				<Offset value="6"/>
+				<Gain value="10"/>
+			<Pin/>
+			<Pin pinName="0">
+				<LogicLevel value="5">
+				<IdleTime value="10"/>
+				<Edge value="Rising"/>
+				<Offset value="6"/>
+				<Gain value="10"/>
+			<Pin/>
+		</Node>
+	</Type>
+   
+	
+	
+</MachineTypes>

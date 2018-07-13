@@ -1,0 +1,30 @@
+﻿<Window x:Class="MetromTablet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MetromTablet"
+        mc:Ignorable="d"
+        Title="MetromRail AURA"  MinHeight="750" MinWidth="500" MaxWidth="1360" MaxHeight="900" Background="Black" Foreground="White" 
+			 Top="-1" Left="-1" 
+			 WindowStyle="None" ResizeMode="NoResize" 			  
+			 Loaded="MetroWindow_Loaded" WindowState="Maximized" Topmost="True">
+    <Window.Resources>
+        <Style x:Key="TransparentStyle" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="Transparent">
+                            <ContentPresenter/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+	<Grid Margin="0,15,0,0">
+		<Frame x:Name="mrFrame" Content="Frame" NavigationUIVisibility="Hidden"/>
+		<Label x:Name="lblTitle" Content="Label" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-2.132,-0.654" Width="209" Margin="0,-20,0,0"/>
+	</Grid>
+
+</Window>

@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MetromTablet.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Port" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UseSIUnits" Type="System.String" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MaintLogTimeStamp" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0001-01-01 00:00:00</Value>
+    </Setting>
+    <Setting Name="MachineType" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MainLogSentTime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0001-01-01 00:00:00</Value>
+    </Setting>
+    <Setting Name="IncidentLogSentTime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0001-01-01 00:00:00</Value>
+    </Setting>
+    <Setting Name="SetScheduledTask" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CheckedtemCount" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

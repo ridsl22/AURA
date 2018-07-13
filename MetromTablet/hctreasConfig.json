@@ -1,0 +1,115 @@
+[
+	{
+		"machineName": "PD 9095",
+		"encoderResolution": "64",
+		"wheelDiameter": "2.5",
+		"direction": "1",
+		"clarDistance": "0.25",
+		"prodReportInterval": "15",
+		"nodes":
+		[
+			{
+				"id": "0",
+				"pin":
+				[
+					{
+						"id": "0",
+						"pinType": "4",
+						"logicLevel": "5.0",
+						"idleTime": "10",
+						"edge": "1",
+						"offset": "2",
+						"gain": "1",
+						"cycleType": "0"
+						},
+					{
+						"id": "1",
+						"pinType": "1",
+						"logicLevel": "5.0",
+						"idleTime": "10",
+						"edge": "1",
+						"offset": "2",
+						"gain": "1",
+						"cycleType": "0"
+						},
+					{
+						"id": "7",
+						"pinType": "5",
+						"logicLevel": "0.0",
+						"idleTime": "10",
+						"edge": "1",
+						"offset": "2",
+						"gain": "1",
+						"cycleType": "0"
+					}
+				]
+			},
+			{
+				"id": "1",
+				"pin":
+				[
+					{
+						"id": "0",
+						"pinType": "3",
+						"logicLevel": "5.0",
+						"idleTime": "10",
+						"edge": "1",
+						"offset": "6",
+						"gain": "10",
+						"cycleType": "5"
+						},
+					{
+						"id": "1",
+						"pinType": "2",
+						"logicLevel": "5.0",
+						"idleTime": "10",
+						"edge": "1",
+						"offset": "6",
+						"gain": "10",
+						"cycleType": "0"
+						},
+					{
+						"id": "2",
+						"pinType": "2",
+						"logicLevel": "5.0",
+						"idleTime": "10",
+						"edge": "1",
+						"offset": "6",
+						"gain": "10",
+						"cycleType": "0"
+						},
+					{
+						"id": "3",
+						"pinType": "3",
+						"logicLevel": "5.0",
+						"idleTime": "10",
+						"edge": "1",
+						"offset": "6",
+						"gain": "10",
+						"cycleType": "2"
+						},
+					{
+						"id": "7",
+						"pinType": "3",
+						"logicLevel": "0.0",
+						"idleTime": "10",
+						"edge": "1",
+						"offset": "6",
+						"gain": "10",
+						"cycleType": "3"
+						},
+					{
+						"id": "9",
+						"pinType": "3",
+						"logicLevel": "0.0",
+						"idleTime": "10",
+						"edge": "1",
+						"offset": "6",
+						"gain": "10",
+						"cycleType": "4"
+					}
+				]	
+			}
+		]
+	}
+]

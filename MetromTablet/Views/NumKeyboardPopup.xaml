@@ -1,0 +1,114 @@
+﻿<Window x:Class="MetromTablet.Views.NumKeyboardPopup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+        Title="{Binding PopupTitle}" Height="250" Width="510" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" Background="Black" Opacity="0.9" Loaded="Window_Loaded" >
+
+
+	<Grid Margin="0,0,4,-2" Background="Black">
+        <Frame x:Name="mrFrame" Content="Frame" NavigationUIVisibility="Hidden"/>
+        <TextBox x:Name="textBoxEntry" Text="{Binding ID}" Focusable="False" Margin="150,19,155,0" IsReadOnly="True" TextWrapping="Wrap" FontSize="22" FontStyle="Italic" VerticalAlignment="Top" Height="36"/>
+
+		<Button Content="1" Focusable="False" FontSize="24" FontWeight="SemiBold" FontFamily="Arial" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" Width="55" Height="55" >
+			<Button.Style>
+				<Style TargetType="Button">
+					<Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+				</Style>
+			</Button.Style>
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="TouchDown">
+					<i:InvokeCommandAction Command="{Binding EnterNumberCommand}" CommandParameter="1"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+
+		<Button Content="2" Focusable="False" FocusVisualStyle="{x:Null}" FontSize="24" FontWeight="SemiBold" FontFamily="Arial" HorizontalAlignment="Left" Margin="80,70,0,0" VerticalAlignment="Top" Width="55" Height="55">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="TouchDown">
+					<i:InvokeCommandAction Command="{Binding EnterNumberCommand}" CommandParameter="2"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+
+		<Button Content="3" FocusVisualStyle="{x:Null}" Focusable="False" FontSize="24" FontWeight="SemiBold" FontFamily="Arial" HorizontalAlignment="Left" Margin="150,70,0,0" VerticalAlignment="Top" Width="55" Height="55">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="TouchDown">
+					<i:InvokeCommandAction Command="{Binding EnterNumberCommand}" CommandParameter="3"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+
+		<Button Content="4" FocusVisualStyle="{x:Null}" Focusable="False" FontSize="24" FontWeight="SemiBold" FontFamily="Arial" HorizontalAlignment="Left" Margin="220,70,0,0" VerticalAlignment="Top" Width="55" Height="55">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="TouchDown">
+					<i:InvokeCommandAction Command="{Binding EnterNumberCommand}" CommandParameter="4"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+
+		<Button Content="5" FocusVisualStyle="{x:Null}" Focusable="False" FontSize="24" FontWeight="SemiBold" FontFamily="Arial" HorizontalAlignment="Left" Margin="290,70,0,0" VerticalAlignment="Top" Width="55" Height="55">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="TouchDown">
+					<i:InvokeCommandAction Command="{Binding EnterNumberCommand}" CommandParameter="5"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+
+		<Button Content="{Binding CancelContent}" FocusVisualStyle="{x:Null}" Focusable="False" FontSize="24" FontWeight="SemiBold" FontFamily="Arial" HorizontalAlignment="Left" Margin="360,69,0,0" VerticalAlignment="Top" Width="120" Height="55">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="TouchDown">
+					<i:InvokeCommandAction Command="{Binding DeleteCommand}"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+
+		<Button Content="6" FocusVisualStyle="{x:Null}" Focusable="False" FontSize="24" FontWeight="SemiBold" FontFamily="Arial" HorizontalAlignment="Left" Margin="10,142,0,0" VerticalAlignment="Top" Width="55" Height="55">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="TouchDown">
+					<i:InvokeCommandAction Command="{Binding EnterNumberCommand}" CommandParameter="6"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+
+		<Button Content="7" FocusVisualStyle="{x:Null}" Focusable="False" FontSize="24" FontWeight="SemiBold" FontFamily="Arial" HorizontalAlignment="Left" Margin="80,142,0,0" VerticalAlignment="Top" Width="55" Height="55">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="TouchDown">
+					<i:InvokeCommandAction Command="{Binding EnterNumberCommand}" CommandParameter="7"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+
+		<Button Content="8" FocusVisualStyle="{x:Null}" Focusable="False" FontSize="24" FontWeight="SemiBold" FontFamily="Arial" HorizontalAlignment="Left" Margin="150,142,0,0" VerticalAlignment="Top" Width="55" Height="55">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="TouchDown">
+					<i:InvokeCommandAction Command="{Binding EnterNumberCommand}" CommandParameter="8"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+
+		<Button Content="9" FocusVisualStyle="{x:Null}" Focusable="False" FontSize="24" FontWeight="SemiBold" FontFamily="Arial" HorizontalAlignment="Left" Margin="220,142,0,0" VerticalAlignment="Top" Width="55" Height="55">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="TouchDown">
+					<i:InvokeCommandAction Command="{Binding EnterNumberCommand}" CommandParameter="9"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+
+		<Button Content="0" FocusVisualStyle="{x:Null}" Focusable="False" FontSize="24" FontWeight="SemiBold" FontFamily="Arial" HorizontalAlignment="Left" Margin="290,142,0,0" VerticalAlignment="Top" Width="55" Height="55">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="TouchDown">
+					<i:InvokeCommandAction Command="{Binding EnterNumberCommand}" CommandParameter="0"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+
+		<Button Content="{Binding ConfirmContent}" FocusVisualStyle="{x:Null}" Focusable="False" FontSize="24" FontWeight="SemiBold" FontFamily="Arial" HorizontalAlignment="Left" Margin="360,141,0,0" VerticalAlignment="Top" Width="120" Height="55">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="TouchDown">
+					<i:InvokeCommandAction Command="{Binding LoginCommand}"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+
+	</Grid>
+</Window>

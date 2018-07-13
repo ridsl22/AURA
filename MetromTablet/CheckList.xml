@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CheckList>
+  <Version id="Daily Checklist" machineType="HCTREAS">
+    <Task description="Verify levels engine oil, hydraulic oil, fuel, engine coolant" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Ensure all engine safety guards are in place and secure" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Inspect engine belts and pulleys" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Visual check for fluid leaks around and under machine" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check neutral start switch" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Inspect instrument panel gauges, verify indication" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check for operators manual and parts book" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check, fire extinguisher, flagging kit, first aid kit" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Verify brake operation ( parking, work and travel )" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check operation of C.N. radio" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check lights, flashers, wipers, mirrors, back up alarm and horn" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check machine for cracks and structural damage" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check safety decals are visible  ( clean if dirty )" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Visually inspect brake assembly" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Clean deck &amp; cab of grease, oil, dirt &amp; garbage" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Inspect exhaust system, intake system for leaks" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check fuel level ( end of shift )" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check all safety locks are secured and in place" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check brake chamber caging bolts" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Inspect air cleaner dust unloading valve" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Lubricate machine" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Drain fuel water separator" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check hydraulic return filter indicator ( operating temperature and full R.P.M. )" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check workhead safety locks and roll pins are secure" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check hydraulic workhead motor adapter bolts are secure" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check workhead lift cylinder nut is secure" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check workhead limit switches are secure" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Inspect workhead pivot block retaining bolt (secure), bushings are tight and greased" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check workhead bumper bolts for wear and adjust if necessary" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check workhead oil  level and lines for leaks" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check tamping tools for wear and condition" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Inspect  rail clamp pins, jack cylinder pins, workhead pins and grease" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check operation and pressure setting of the shadow board reference cylinder regulator" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check front drive sprocket  bolts are secure" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check front transmission limit switch linkage and control" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check rear transmission shift linkage and neutral switch" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check liner front and rear buggy springs, hinges and wheels turn freely" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check liner receiver and projector guide rollers turn freely" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check operation of liner and surface actuator" expiryDate="06-20-2018 00:00:00" />
+    <Task description="Check proper operation of jack and liner system's differential" expiryDate="06-20-2018 00:00:00" />
+  </Version>
+  <Version id="50 Hours Checklist" machineType="HCTREAS">
+    <Task description="Inspect hydraulic pumps, motors, valves, cylinders and fittings for leaks" expiryDate="06-21-2018 13:54:36" />
+    <Task description="Check battery level, cables, clamps, frame ground and clean" expiryDate="06-21-2018 13:54:36" />
+    <Task description="Check radiator, fan and hydraulic oil cooler for dirt and damage" expiryDate="06-21-2018 13:54:36" />
+    <Task description="Check transmission(s) oil levels" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check hydraulic filler cap, filler hose is capped, and inspection cover seal" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect  drive chain  and  adjust if necessary" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check rail clamp stabilizer  arm ( must be straight )" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Lubricate brake pivot shaft" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check electrical cabinets and ensure components are secure" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check dynamic brake setting and squeeze pressure" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Extend workhead  traverse and check for pinching of hoses and cables" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check hydraulic pump drive oil level, clean breather if necessary " expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check projector spacer buggy wheels roll freely, damaged electrical cables, connectors and bent pins" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check receivers for dust on lenses" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Ensure workhead bumper stop &quot;flow control valves@&quot; are correctly adjusted" expiryDate="01-01-0001 00:00:00" />
+  </Version>
+  <Version id="200 Hours Checklist" machineType="HCTREAS">
+    <Task description="Check fire extinguisher condition and tag expiry date" expiryDate="06-27-2018 19:54:37" />
+    <Task description="Change engine oil, oil filter and fuel filters" expiryDate="06-27-2018 19:54:37" />
+    <Task description="Ensure engine emergency shutdown mechanism is functional" expiryDate="06-27-2018 19:54:37" />
+    <Task description="Test hydraulic emergency pump" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check air compressor filter and service as necessary" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check air compressor coolant lines" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect engine crankcase breather for air flow" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check engine cooling system ( leaks, connections and damage )" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Ensure engine and radiator mounts are secure" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check drive wheels for wear, sharp flanges and cracks" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check hydraulic hoses for damage and verify hold downs are secure" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Drain 1/4 liter of fuel from tank ( if adapted for quick drain )" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect engine wiring and connections for looseness and corrosion" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect turbocharger mountings, intake and exhaust ducts and connections for leaks" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check air conditioner condenser and filter for dirt" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check traverse chain adjustment , oil lightly and check rollers for free rolling" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Clean projector and receiver lenses and check focus" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Change workhead oil and clean magnetic plug" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Grease axle suspension slides" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check front transmission control linkage for wear" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check projector spacer buggy wheels roll freely" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check projector buggies for frayed electrical cables, damaged connectors, bent pins" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check drive chains and sprockets for alignment" expiryDate="01-01-0001 00:00:00" />
+  </Version>
+  <Version id="Seasonal Checklist" machineType="HCTREAS">
+    <Task description="Drain and replace pump gear drive oil" expiryDate="09-01-2018 00:00:00" />
+    <Task description="Drain and replace transmission(s) oil" expiryDate="09-01-2018 00:00:00" />
+    <Task description="Check air dryer element, replace cartridge if necessary" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect engine cooling system for contamination and test anti freeze rating" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Replace hydraulic return line filter" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Replace hydraulic tank breather filter if necessary" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Replace coolant filter if applicable" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Replace fuel water separator filter" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect hydraulic top up pump for proper operation and change filter" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Perform CN/Fairmont Tamper co-inspection of the machine" expiryDate="01-01-0001 00:00:00" />
+  </Version>
+  <Version id="Daily Checklist" machineType="JUPITER">
+    <Task description="Verify levels engine oil, hydraulic oil, fuel, engine coolant" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Ensure all engine safety guards are in place and secure" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect engine belts and pulleys" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Visual check for fluid leaks around and under machine" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check neutral start switch" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect instrument panel gauges, verify indication" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check for operators manual and parts book" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check, fire extinguisher, flagging kit, first aid kit" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Verify brake operation ( parking, work and travel )" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check operation of C.N. radio" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check lights, flashers, wipers, mirrors, back up alarm and horn" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check machine for cracks and structural damage" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check safety decals are visible  ( clean if dirty )" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Visually inspect brake assembly" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Clean deck &amp; cab of grease, oil, dirt &amp; garbage" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect exhaust system, intake system for leaks" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check fuel level ( end of shift )" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check all safety locks are secured and in place" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check brake chamber caging bolts" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect air cleaner dust unloading valve" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Lubricate machine" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Drain fuel water separator" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check hydraulic return filter indicator ( operating temperature and full R.P.M. )" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check workhead safety locks and roll pins are secure" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check hydraulic workhead motor adapter bolts are secure" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check workhead lift cylinder nut is secure" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check workhead limit switches are secure" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect workhead pivot block retaining bolt (secure), bushings are tight and greased" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check workhead bumper bolts for wear and adjust if necessary" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check workhead oil  level and lines for leaks" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check tamping tools for wear and condition" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect  rail clamp pins, jack cylinder pins, workhead pins and grease" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check operation and pressure setting of the shadow board reference cylinder regulator" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check front drive sprocket  bolts are secure" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check front transmission limit switch linkage and control" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check rear transmission shift linkage and neutral switch" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check liner front and rear buggy springs, hinges and wheels turn freely" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check liner receiver and projector guide rollers turn freely" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check operation of liner and surface actuator" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check proper operation of jack and liner system's differential" expiryDate="01-01-0001 00:00:00" />
+  </Version>
+  <Version id="50 Hours Checklist" machineType="JUPITER">
+    <Task description="Inspect hydraulic pumps, motors, valves, cylinders and fittings for leaks" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check battery level, cables, clamps, frame ground and clean" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check radiator, fan and hydraulic oil cooler for dirt and damage" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check transmission(s) oil levels" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check hydraulic filler cap, filler hose is capped, and inspection cover seal" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect  drive chain  and  adjust if necessary" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check rail clamp stabilizer  arm ( must be straight )" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Lubricate brake pivot shaft" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check electrical cabinets and ensure components are secure" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check dynamic brake setting and squeeze pressure" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Extend workhead  traverse and check for pinching of hoses and cables" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check hydraulic pump drive oil level, clean breather if necessary " expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check projector spacer buggy wheels roll freely, damaged electrical cables, connectors and bent pins" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check receivers for dust on lenses" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Ensure workhead bumper stop &quot;flow control valves@&quot; are correctly adjusted" expiryDate="01-01-0001 00:00:00" />
+  </Version>
+  <Version id="200 Hours Checklist" machineType="JUPITER">
+    <Task description="Check fire extinguisher condition and tag expiry date" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Change engine oil, oil filter and fuel filters" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Ensure engine emergency shutdown mechanism is functional" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Test hydraulic emergency pump" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check air compressor filter and service as necessary" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check air compressor coolant lines" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect engine crankcase breather for air flow" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check engine cooling system ( leaks, connections and damage )" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Ensure engine and radiator mounts are secure" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check drive wheels for wear, sharp flanges and cracks" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check hydraulic hoses for damage and verify hold downs are secure" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Drain 1/4 liter of fuel from tank ( if adapted for quick drain )" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect engine wiring and connections for looseness and corrosion" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect turbocharger mountings, intake and exhaust ducts and connections for leaks" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check air conditioner condenser and filter for dirt" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check traverse chain adjustment , oil lightly and check rollers for free rolling" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Clean projector and receiver lenses and check focus" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Change workhead oil and clean magnetic plug" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Grease axle suspension slides" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check front transmission control linkage for wear" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check projector spacer buggy wheels roll freely" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check projector buggies for frayed electrical cables, damaged connectors, bent pins" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check drive chains and sprockets for alignment" expiryDate="01-01-0001 00:00:00" />
+  </Version>
+  <Version id="Seasonal Checklist" machineType="JUPITER">
+    <Task description="Drain and replace pump gear drive oil" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Drain and replace transmission(s) oil" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Check air dryer element, replace cartridge if necessary" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect engine cooling system for contamination and test anti freeze rating" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Replace hydraulic return line filter" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Replace hydraulic tank breather filter if necessary" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Replace coolant filter if applicable" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Replace fuel water separator filter" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Inspect hydraulic top up pump for proper operation and change filter" expiryDate="01-01-0001 00:00:00" />
+    <Task description="Perform CN/Fairmont Tamper co-inspection of the machine" expiryDate="01-01-0001 00:00:00" />
+  </Version>
+  <Version id="Daily Checklist" machineType="Tamper">
+    <Task description="Verify levels engine oil, hydraulic oil, fuel, engine coolant" />
+    <Task description="Ensure all engine safety guards are in place and secure" />
+    <Task description="Inspect engine belts and pulleys" />
+    <Task description="Visual check for fluid leaks around and under machine" />
+    <Task description="Check neutral start switch" />
+    <Task description="Inspect instrument panel gauges, verify indication" />
+    <Task description="Check for operators manual and parts book" />
+    <Task description="Check, fire extinguisher, flagging kit, first aid kit" />
+    <Task description="Verify brake operation ( parking, work and travel )" />
+    <Task description="Check operation of C.N. radio" />
+    <Task description="Check lights, flashers, wipers, mirrors, back up alarm and horn" />
+    <Task description="Check machine for cracks and structural damage" />
+    <Task description="Check safety decals are visible  ( clean if dirty )" />
+    <Task description="Visually inspect brake assembly" />
+    <Task description="Clean deck &amp; cab of grease, oil, dirt &amp; garbage" />
+    <Task description="Inspect exhaust system, intake system for leaks" />
+    <Task description="Check fuel level ( end of shift )" />
+    <Task description="Check all safety locks are secured and in place" />
+    <Task description="Check brake chamber caging bolts" />
+    <Task description="Inspect air cleaner dust unloading valve" />
+    <Task description="Lubricate machine" />
+    <Task description="Drain fuel water separator" />
+    <Task description="Check hydraulic return filter indicator ( operating temperature and full R.P.M. )" />
+    <Task description="Check workhead safety locks and roll pins are secure" />
+    <Task description="Check hydraulic workhead motor adapter bolts are secure" />
+    <Task description="Check workhead lift cylinder nut is secure" />
+    <Task description="Check workhead limit switches are secure" />
+    <Task description="Inspect workhead pivot block retaining bolt (secure), bushings are tight and greased" />
+    <Task description="Check workhead bumper bolts for wear and adjust if necessary" />
+    <Task description="Check workhead oil  level and lines for leaks" />
+    <Task description="Check tamping tools for wear and condition" />
+    <Task description="Inspect  rail clamp pins, jack cylinder pins, workhead pins and grease" />
+    <Task description="Check operation and pressure setting of the shadow board reference cylinder regulator" />
+    <Task description="Check front drive sprocket  bolts are secure" />
+    <Task description="Check front transmission limit switch linkage and control" />
+    <Task description="Check rear transmission shift linkage and neutral switch" />
+    <Task description="Check liner front and rear buggy springs, hinges and wheels turn freely" />
+    <Task description="Check liner receiver and projector guide rollers turn freely" />
+    <Task description="Check operation of liner and surface actuator" />
+    <Task description="Check proper operation of jack and liner system's differential" />
+  </Version>
+  <Version id="50 Hours Checklist" machineType="Tamper">
+    <Task description="Tamper: Inspect hydraulic pumps, motors, valves, cylinders and fittings for leaks" />
+    <Task description="Check battery level, cables, clamps, frame ground and clean" />
+    <Task description="Check radiator, fan and hydraulic oil cooler for dirt and damage" />
+    <Task description="Check transmission(s) oil levels" />
+    <Task description="Check hydraulic filler cap, filler hose is capped, and inspection cover seal" />
+    <Task description="Inspect  drive chain  and  adjust if necessary" />
+    <Task description="Check rail clamp stabilizer  arm ( must be straight )" />
+    <Task description="Lubricate brake pivot shaft" />
+    <Task description="Check electrical cabinets and ensure components are secure" />
+    <Task description="Check dynamic brake setting and squeeze pressure" />
+    <Task description="Extend workhead  traverse and check for pinching of hoses and cables" />
+    <Task description="Check hydraulic pump drive oil level, clean breather if necessary " />
+    <Task description="Check projector spacer buggy wheels roll freely, damaged electrical cables, connectors and bent pins" />
+    <Task description="Check receivers for dust on lenses" />
+    <Task description="Ensure workhead bumper stop &quot;flow control valves@&quot; are correctly adjusted" />
+  </Version>
+  <Version id="200 Hours Checklist" machineType="Tamper">
+    <Task description="Tamper: Check fire extinguisher condition and tag expiry date" />
+    <Task description="Change engine oil, oil filter and fuel filters" />
+    <Task description="Ensure engine emergency shutdown mechanism is functional" />
+    <Task description="Test hydraulic emergency pump" />
+    <Task description="Check air compressor filter and service as necessary" />
+    <Task description="Check air compressor coolant lines" />
+    <Task description="Inspect engine crankcase breather for air flow" />
+    <Task description="Check engine cooling system ( leaks, connections and damage )" />
+    <Task description="Ensure engine and radiator mounts are secure" />
+    <Task description="Check drive wheels for wear, sharp flanges and cracks" />
+    <Task description="Check hydraulic hoses for damage and verify hold downs are secure" />
+    <Task description="Drain 1/4 liter of fuel from tank ( if adapted for quick drain )" />
+    <Task description="Inspect engine wiring and connections for looseness and corrosion" />
+    <Task description="Inspect turbocharger mountings, intake and exhaust ducts and connections for leaks" />
+    <Task description="Check air conditioner condenser and filter for dirt" />
+    <Task description="Check traverse chain adjustment , oil lightly and check rollers for free rolling" />
+    <Task description="Clean projector and receiver lenses and check focus" />
+    <Task description="Change workhead oil and clean magnetic plug" />
+    <Task description="Grease axle suspension slides" />
+    <Task description="Check front transmission control linkage for wear" />
+    <Task description="Check projector spacer buggy wheels roll freely" />
+    <Task description="Check projector buggies for frayed electrical cables, damaged connectors, bent pins" />
+    <Task description="Check drive chains and sprockets for alignment" />
+  </Version>
+  <Version id="Seasonal Checklist" machineType="Tamper">
+    <Task description="Tamper: Drain and replace pump gear drive oil" />
+    <Task description="Drain and replace transmission(s) oil" />
+    <Task description="Check air dryer element, replace cartridge if necessary" />
+    <Task description="Inspect engine cooling system for contamination and test anti freeze rating" />
+    <Task description="Replace hydraulic return line filter" />
+    <Task description="Replace hydraulic tank breather filter if necessary" />
+    <Task description="Replace coolant filter if applicable" />
+    <Task description="Replace fuel water separator filter" />
+    <Task description="Inspect hydraulic top up pump for proper operation and change filter" />
+    <Task description="Perform CN/Fairmont Tamper co-inspection of the machine" />
+  </Version>
+  <Version id="Daily Checklist" machineType="TRIPP">
+    <Task description="TRIPP: Inspect instrument panel gauges, verify indication" />
+    <Task description="Check for operators manual and parts book" />
+    <Task description="Check, fire extinguisher, flagging kit, first aid kit" />
+    <Task description="Verify brake operation ( parking, work and travel )" />
+    <Task description="Check operation of C.N. radio" />
+    <Task description="Check lights, flashers, wipers, mirrors, back up alarm and horn" />
+    <Task description="Check machine for cracks and structural damage" />
+    <Task description="Check safety decals are visible  ( clean if dirty )" />
+    <Task description="Visually inspect brake assembly" />
+    <Task description="Clean deck &amp; cab of grease, oil, dirt &amp; garbage" />
+    <Task description="Inspect exhaust system, intake system for leaks" />
+    <Task description="Check fuel level ( end of shift )" />
+    <Task description="Check all safety locks are secured and in place" />
+    <Task description="Check brake chamber caging bolts" />
+    <Task description="Inspect air cleaner dust unloading valve" />
+    <Task description="Lubricate machine" />
+    <Task description="Drain fuel water separator" />
+    <Task description="Check hydraulic return filter indicator ( operating temperature and full R.P.M. )" />
+    <Task description="Check workhead safety locks and roll pins are secure" />
+    <Task description="Check hydraulic workhead motor adapter bolts are secure" />
+    <Task description="Check workhead lift cylinder nut is secure" />
+    <Task description="Check workhead limit switches are secure" />
+    <Task description="Inspect workhead pivot block retaining bolt (secure), bushings are tight and greased" />
+    <Task description="Check workhead bumper bolts for wear and adjust if necessary" />
+    <Task description="Check workhead oil  level and lines for leaks" />
+    <Task description="Check tamping tools for wear and condition" />
+    <Task description="Inspect  rail clamp pins, jack cylinder pins, workhead pins and grease" />
+    <Task description="Check operation and pressure setting of the shadow board reference cylinder regulator" />
+    <Task description="Check front drive sprocket  bolts are secure" />
+    <Task description="Check front transmission limit switch linkage and control" />
+    <Task description="Check rear transmission shift linkage and neutral switch" />
+    <Task description="Check liner front and rear buggy springs, hinges and wheels turn freely" />
+    <Task description="Check liner receiver and projector guide rollers turn freely" />
+    <Task description="Check operation of liner and surface actuator" />
+    <Task description="Check proper operation of jack and liner system's differential" />
+  </Version>
+  <Version id="50 Hours Checklist" machineType="TRIPP">
+    <Task description="TRIPP: Inspect hydraulic pumps, motors, valves, cylinders and fittings for leaks" />
+    <Task description="Check battery level, cables, clamps, frame ground and clean" />
+    <Task description="Check radiator, fan and hydraulic oil cooler for dirt and damage" />
+    <Task description="Check transmission(s) oil levels" />
+    <Task description="Check hydraulic filler cap, filler hose is capped, and inspection cover seal" />
+    <Task description="Inspect  drive chain  and  adjust if necessary" />
+    <Task description="Check rail clamp stabilizer  arm ( must be straight )" />
+    <Task description="Lubricate brake pivot shaft" />
+    <Task description="Check electrical cabinets and ensure components are secure" />
+    <Task description="Check dynamic brake setting and squeeze pressure" />
+    <Task description="Extend workhead  traverse and check for pinching of hoses and cables" />
+    <Task description="Check hydraulic pump drive oil level, clean breather if necessary " />
+    <Task description="Check projector spacer buggy wheels roll freely, damaged electrical cables, connectors and bent pins" />
+    <Task description="Check receivers for dust on lenses" />
+    <Task description="Ensure workhead bumper stop &quot;flow control valves@&quot; are correctly adjusted" />
+  </Version>
+  <Version id="200 Hours Checklist" machineType="TRIPP">
+    <Task description="TRIPP: Check fire extinguisher condition and tag expiry date" />
+    <Task description="Change engine oil, oil filter and fuel filters" />
+    <Task description="Ensure engine emergency shutdown mechanism is functional" />
+    <Task description="Test hydraulic emergency pump" />
+    <Task description="Check air compressor filter and service as necessary" />
+    <Task description="Check air compressor coolant lines" />
+    <Task description="Inspect engine crankcase breather for air flow" />
+    <Task description="Check engine cooling system ( leaks, connections and damage )" />
+    <Task description="Ensure engine and radiator mounts are secure" />
+    <Task description="Check drive wheels for wear, sharp flanges and cracks" />
+    <Task description="Check hydraulic hoses for damage and verify hold downs are secure" />
+    <Task description="Drain 1/4 liter of fuel from tank ( if adapted for quick drain )" />
+    <Task description="Inspect engine wiring and connections for looseness and corrosion" />
+    <Task description="Inspect turbocharger mountings, intake and exhaust ducts and connections for leaks" />
+    <Task description="Check air conditioner condenser and filter for dirt" />
+    <Task description="Check traverse chain adjustment , oil lightly and check rollers for free rolling" />
+    <Task description="Clean projector and receiver lenses and check focus" />
+    <Task description="Change workhead oil and clean magnetic plug" />
+    <Task description="Grease axle suspension slides" />
+    <Task description="Check front transmission control linkage for wear" />
+    <Task description="Check projector spacer buggy wheels roll freely" />
+    <Task description="Check projector buggies for frayed electrical cables, damaged connectors, bent pins" />
+    <Task description="Check drive chains and sprockets for alignment" />
+  </Version>
+  <Version id="Seasonal Checklist" machineType="TRIPP">
+    <Task description="TRIPP: Drain and replace pump gear drive oil" />
+    <Task description="Drain and replace transmission(s) oil" />
+    <Task description="Check air dryer element, replace cartridge if necessary" />
+    <Task description="Inspect engine cooling system for contamination and test anti freeze rating" />
+    <Task description="Replace hydraulic return line filter" />
+    <Task description="Replace hydraulic tank breather filter if necessary" />
+    <Task description="Replace coolant filter if applicable" />
+    <Task description="Replace fuel water separator filter" />
+    <Task description="Inspect hydraulic top up pump for proper operation and change filter" />
+    <Task description="Perform CN/Fairmont Tamper co-inspection of the machine" />
+  </Version>
+  <Version id="Daily Checklist" machineType="Spiker">
+    <Task description="Spiker: Inspect instrument panel gauges, verify indication" />
+    <Task description="Check for operators manual and parts book" />
+    <Task description="Check, fire extinguisher, flagging kit, first aid kit" />
+    <Task description="Verify brake operation ( parking, work and travel )" />
+    <Task description="Check operation of C.N. radio" />
+    <Task description="Check lights, flashers, wipers, mirrors, back up alarm and horn" />
+    <Task description="Check machine for cracks and structural damage" />
+    <Task description="Check safety decals are visible  ( clean if dirty )" />
+    <Task description="Visually inspect brake assembly" />
+    <Task description="Clean deck &amp; cab of grease, oil, dirt &amp; garbage" />
+    <Task description="Inspect exhaust system, intake system for leaks" />
+    <Task description="Check fuel level ( end of shift )" />
+    <Task description="Check all safety locks are secured and in place" />
+    <Task description="Check brake chamber caging bolts" />
+    <Task description="Inspect air cleaner dust unloading valve" />
+    <Task description="Lubricate machine" />
+    <Task description="Drain fuel water separator" />
+    <Task description="Check hydraulic return filter indicator ( operating temperature and full R.P.M. )" />
+    <Task description="Check workhead safety locks and roll pins are secure" />
+    <Task description="Check hydraulic workhead motor adapter bolts are secure" />
+    <Task description="Check workhead lift cylinder nut is secure" />
+    <Task description="Check workhead limit switches are secure" />
+    <Task description="Inspect workhead pivot block retaining bolt (secure), bushings are tight and greased" />
+    <Task description="Check workhead bumper bolts for wear and adjust if necessary" />
+    <Task description="Check workhead oil  level and lines for leaks" />
+    <Task description="Check tamping tools for wear and condition" />
+    <Task description="Inspect  rail clamp pins, jack cylinder pins, workhead pins and grease" />
+    <Task description="Check operation and pressure setting of the shadow board reference cylinder regulator" />
+    <Task description="Check front drive sprocket  bolts are secure" />
+    <Task description="Check front transmission limit switch linkage and control" />
+    <Task description="Check rear transmission shift linkage and neutral switch" />
+    <Task description="Check liner front and rear buggy springs, hinges and wheels turn freely" />
+    <Task description="Check liner receiver and projector guide rollers turn freely" />
+    <Task description="Check operation of liner and surface actuator" />
+    <Task description="Check proper operation of jack and liner system's differential" />
+  </Version>
+  <Version id="50 Hours Checklist" machineType="Spiker">
+    <Task description="Spiker: Inspect hydraulic pumps, motors, valves, cylinders and fittings for leaks" />
+    <Task description="Check battery level, cables, clamps, frame ground and clean" />
+    <Task description="Check radiator, fan and hydraulic oil cooler for dirt and damage" />
+    <Task description="Check transmission(s) oil levels" />
+    <Task description="Check hydraulic filler cap, filler hose is capped, and inspection cover seal" />
+    <Task description="Inspect  drive chain  and  adjust if necessary" />
+    <Task description="Check rail clamp stabilizer  arm ( must be straight )" />
+    <Task description="Lubricate brake pivot shaft" />
+    <Task description="Check electrical cabinets and ensure components are secure" />
+    <Task description="Check dynamic brake setting and squeeze pressure" />
+    <Task description="Extend workhead  traverse and check for pinching of hoses and cables" />
+    <Task description="Check hydraulic pump drive oil level, clean breather if necessary " />
+    <Task description="Check projector spacer buggy wheels roll freely, damaged electrical cables, connectors and bent pins" />
+    <Task description="Check receivers for dust on lenses" />
+    <Task description="Ensure workhead bumper stop &quot;flow control valves@&quot; are correctly adjusted" />
+  </Version>
+  <Version id="200 Hours Checklist" machineType="Spiker">
+    <Task description="Spiker: Check fire extinguisher condition and tag expiry date" />
+    <Task description="Change engine oil, oil filter and fuel filters" />
+    <Task description="Ensure engine emergency shutdown mechanism is functional" />
+    <Task description="Test hydraulic emergency pump" />
+    <Task description="Check air compressor filter and service as necessary" />
+    <Task description="Check air compressor coolant lines" />
+    <Task description="Inspect engine crankcase breather for air flow" />
+    <Task description="Check engine cooling system ( leaks, connections and damage )" />
+    <Task description="Ensure engine and radiator mounts are secure" />
+    <Task description="Check drive wheels for wear, sharp flanges and cracks" />
+    <Task description="Check hydraulic hoses for damage and verify hold downs are secure" />
+    <Task description="Drain 1/4 liter of fuel from tank ( if adapted for quick drain )" />
+    <Task description="Inspect engine wiring and connections for looseness and corrosion" />
+    <Task description="Inspect turbocharger mountings, intake and exhaust ducts and connections for leaks" />
+    <Task description="Check air conditioner condenser and filter for dirt" />
+    <Task description="Check traverse chain adjustment , oil lightly and check rollers for free rolling" />
+    <Task description="Clean projector and receiver lenses and check focus" />
+    <Task description="Change workhead oil and clean magnetic plug" />
+    <Task description="Grease axle suspension slides" />
+    <Task description="Check front transmission control linkage for wear" />
+    <Task description="Check projector spacer buggy wheels roll freely" />
+    <Task description="Check projector buggies for frayed electrical cables, damaged connectors, bent pins" />
+    <Task description="Check drive chains and sprockets for alignment" />
+  </Version>
+  <Version id="Seasonal Checklist" machineType="Spiker">
+    <Task description="Spiker: Drain and replace pump gear drive oil" />
+    <Task description="Drain and replace transmission(s) oil" />
+    <Task description="Check air dryer element, replace cartridge if necessary" />
+    <Task description="Inspect engine cooling system for contamination and test anti freeze rating" />
+    <Task description="Replace hydraulic return line filter" />
+    <Task description="Replace hydraulic tank breather filter if necessary" />
+    <Task description="Replace coolant filter if applicable" />
+    <Task description="Replace fuel water separator filter" />
+    <Task description="Inspect hydraulic top up pump for proper operation and change filter" />
+    <Task description="Perform CN/Fairmont Tamper co-inspection of the machine" />
+  </Version>
+  <Version id="Daily Checklist" machineType="Cribber-Adzer">
+    <Task description="Cribber-Adzer: Inspect instrument panel gauges, verify indication" />
+    <Task description="Check for operators manual and parts book" />
+    <Task description="Check, fire extinguisher, flagging kit, first aid kit" />
+    <Task description="Verify brake operation ( parking, work and travel )" />
+    <Task description="Check operation of C.N. radio" />
+    <Task description="Check lights, flashers, wipers, mirrors, back up alarm and horn" />
+    <Task description="Check machine for cracks and structural damage" />
+    <Task description="Check safety decals are visible  ( clean if dirty )" />
+    <Task description="Visually inspect brake assembly" />
+    <Task description="Clean deck &amp; cab of grease, oil, dirt &amp; garbage" />
+    <Task description="Inspect exhaust system, intake system for leaks" />
+    <Task description="Check fuel level ( end of shift )" />
+    <Task description="Check all safety locks are secured and in place" />
+    <Task description="Check brake chamber caging bolts" />
+    <Task description="Inspect air cleaner dust unloading valve" />
+    <Task description="Lubricate machine" />
+    <Task description="Drain fuel water separator" />
+    <Task description="Check hydraulic return filter indicator ( operating temperature and full R.P.M. )" />
+    <Task description="Check workhead safety locks and roll pins are secure" />
+    <Task description="Check hydraulic workhead motor adapter bolts are secure" />
+    <Task description="Check workhead lift cylinder nut is secure" />
+    <Task description="Check workhead limit switches are secure" />
+    <Task description="Inspect workhead pivot block retaining bolt (secure), bushings are tight and greased" />
+    <Task description="Check workhead bumper bolts for wear and adjust if necessary" />
+    <Task description="Check workhead oil  level and lines for leaks" />
+    <Task description="Check tamping tools for wear and condition" />
+    <Task description="Inspect  rail clamp pins, jack cylinder pins, workhead pins and grease" />
+    <Task description="Check operation and pressure setting of the shadow board reference cylinder regulator" />
+    <Task description="Check front drive sprocket  bolts are secure" />
+    <Task description="Check front transmission limit switch linkage and control" />
+    <Task description="Check rear transmission shift linkage and neutral switch" />
+    <Task description="Check liner front and rear buggy springs, hinges and wheels turn freely" />
+    <Task description="Check liner receiver and projector guide rollers turn freely" />
+    <Task description="Check operation of liner and surface actuator" />
+    <Task description="Check proper operation of jack and liner system's differential" />
+  </Version>
+  <Version id="50 Hours Checklist" machineType="Cribber-Adzer">
+    <Task description="Cribber-Adzer: Inspect hydraulic pumps, motors, valves, cylinders and fittings for leaks" />
+    <Task description="Check battery level, cables, clamps, frame ground and clean" />
+    <Task description="Check radiator, fan and hydraulic oil cooler for dirt and damage" />
+    <Task description="Check transmission(s) oil levels" />
+    <Task description="Check hydraulic filler cap, filler hose is capped, and inspection cover seal" />
+    <Task description="Inspect  drive chain  and  adjust if necessary" />
+    <Task description="Check rail clamp stabilizer  arm ( must be straight )" />
+    <Task description="Lubricate brake pivot shaft" />
+    <Task description="Check electrical cabinets and ensure components are secure" />
+    <Task description="Check dynamic brake setting and squeeze pressure" />
+    <Task description="Extend workhead  traverse and check for pinching of hoses and cables" />
+    <Task description="Check hydraulic pump drive oil level, clean breather if necessary " />
+    <Task description="Check projector spacer buggy wheels roll freely, damaged electrical cables, connectors and bent pins" />
+    <Task description="Check receivers for dust on lenses" />
+    <Task description="Ensure workhead bumper stop &quot;flow control valves@&quot; are correctly adjusted" />
+  </Version>
+  <Version id="200 Hours Checklist" machineType="Cribber-Adzer">
+    <Task description="Cribber-Adzer: Check fire extinguisher condition and tag expiry date" />
+    <Task description="Change engine oil, oil filter and fuel filters" />
+    <Task description="Ensure engine emergency shutdown mechanism is functional" />
+    <Task description="Test hydraulic emergency pump" />
+    <Task description="Check air compressor filter and service as necessary" />
+    <Task description="Check air compressor coolant lines" />
+    <Task description="Inspect engine crankcase breather for air flow" />
+    <Task description="Check engine cooling system ( leaks, connections and damage )" />
+    <Task description="Ensure engine and radiator mounts are secure" />
+    <Task description="Check drive wheels for wear, sharp flanges and cracks" />
+    <Task description="Check hydraulic hoses for damage and verify hold downs are secure" />
+    <Task description="Drain 1/4 liter of fuel from tank ( if adapted for quick drain )" />
+    <Task description="Inspect engine wiring and connections for looseness and corrosion" />
+    <Task description="Inspect turbocharger mountings, intake and exhaust ducts and connections for leaks" />
+    <Task description="Check air conditioner condenser and filter for dirt" />
+    <Task description="Check traverse chain adjustment , oil lightly and check rollers for free rolling" />
+    <Task description="Clean projector and receiver lenses and check focus" />
+    <Task description="Change workhead oil and clean magnetic plug" />
+    <Task description="Grease axle suspension slides" />
+    <Task description="Check front transmission control linkage for wear" />
+    <Task description="Check projector spacer buggy wheels roll freely" />
+    <Task description="Check projector buggies for frayed electrical cables, damaged connectors, bent pins" />
+    <Task description="Check drive chains and sprockets for alignment" />
+  </Version>
+  <Version id="Seasonal Checklist" machineType="Cribber-Adzer">
+    <Task description="Cribber-Adzer: Drain and replace pump gear drive oil" />
+    <Task description="Drain and replace transmission(s) oil" />
+    <Task description="Check air dryer element, replace cartridge if necessary" />
+    <Task description="Inspect engine cooling system for contamination and test anti freeze rating" />
+    <Task description="Replace hydraulic return line filter" />
+    <Task description="Replace hydraulic tank breather filter if necessary" />
+    <Task description="Replace coolant filter if applicable" />
+    <Task description="Replace fuel water separator filter" />
+    <Task description="Inspect hydraulic top up pump for proper operation and change filter" />
+    <Task description="Perform CN/Fairmont Tamper co-inspection of the machine" />
+  </Version>
+</CheckList>
