@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetromTablet", "..\..\..\MetromRail\Code\MetromUS\trunk\MetromTablet\MetromTablet.csproj", "{8E68AFC7-3A03-4932-BF5D-04FBF6834C62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewLog", "..\..\..\MetromRail\Code\MetromUS\trunk\Metrom.AURA.ViewLog\ViewLog.csproj", "{F885E47D-19A6-499C-98AC-AD700E110050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AURAstartup", "..\..\..\MetromRail\Code\MetromUS\trunk\AURAstartup\AURAstartup.csproj", "{DF856CAF-F92F-473F-BA0E-62D86565CD7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metrom.AURA.Base", "..\..\..\MetromRail\Code\MetromUS\trunk\Metrom.AURA.Base\Metrom.AURA.Base.csproj", "{61663E50-A362-4120-9888-7BADD104934B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metrom.AURA.Log", "..\..\..\MetromRail\Code\MetromUS\trunk\Metrom.AURA.Log\Metrom.AURA.Log.csproj", "{1E1CF8B8-0D85-414B-B999-0C79D2CDDFA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Client Debug|Any CPU = Client Debug|Any CPU
+		Client Release|Any CPU = Client Release|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Metrom Debug|Any CPU = Metrom Debug|Any CPU
+		Metrom Release|Any CPU = Metrom Release|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E68AFC7-3A03-4932-BF5D-04FBF6834C62}.Client Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E68AFC7-3A03-4932-BF5D-04FBF6834C62}.Client Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E68AFC7-3A03-4932-BF5D-04FBF6834C62}.Client Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E68AFC7-3A03-4932-BF5D-04FBF6834C62}.Client Release|Any CPU.Build.0 = Release|Any CPU
+		{8E68AFC7-3A03-4932-BF5D-04FBF6834C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E68AFC7-3A03-4932-BF5D-04FBF6834C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E68AFC7-3A03-4932-BF5D-04FBF6834C62}.Metrom Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E68AFC7-3A03-4932-BF5D-04FBF6834C62}.Metrom Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E68AFC7-3A03-4932-BF5D-04FBF6834C62}.Metrom Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E68AFC7-3A03-4932-BF5D-04FBF6834C62}.Metrom Release|Any CPU.Build.0 = Release|Any CPU
+		{8E68AFC7-3A03-4932-BF5D-04FBF6834C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E68AFC7-3A03-4932-BF5D-04FBF6834C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F885E47D-19A6-499C-98AC-AD700E110050}.Client Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F885E47D-19A6-499C-98AC-AD700E110050}.Client Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F885E47D-19A6-499C-98AC-AD700E110050}.Client Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F885E47D-19A6-499C-98AC-AD700E110050}.Client Release|Any CPU.Build.0 = Release|Any CPU
+		{F885E47D-19A6-499C-98AC-AD700E110050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F885E47D-19A6-499C-98AC-AD700E110050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F885E47D-19A6-499C-98AC-AD700E110050}.Metrom Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F885E47D-19A6-499C-98AC-AD700E110050}.Metrom Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F885E47D-19A6-499C-98AC-AD700E110050}.Metrom Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F885E47D-19A6-499C-98AC-AD700E110050}.Metrom Release|Any CPU.Build.0 = Release|Any CPU
+		{F885E47D-19A6-499C-98AC-AD700E110050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F885E47D-19A6-499C-98AC-AD700E110050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF856CAF-F92F-473F-BA0E-62D86565CD7C}.Client Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF856CAF-F92F-473F-BA0E-62D86565CD7C}.Client Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF856CAF-F92F-473F-BA0E-62D86565CD7C}.Client Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF856CAF-F92F-473F-BA0E-62D86565CD7C}.Client Release|Any CPU.Build.0 = Release|Any CPU
+		{DF856CAF-F92F-473F-BA0E-62D86565CD7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF856CAF-F92F-473F-BA0E-62D86565CD7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF856CAF-F92F-473F-BA0E-62D86565CD7C}.Metrom Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF856CAF-F92F-473F-BA0E-62D86565CD7C}.Metrom Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF856CAF-F92F-473F-BA0E-62D86565CD7C}.Metrom Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF856CAF-F92F-473F-BA0E-62D86565CD7C}.Metrom Release|Any CPU.Build.0 = Release|Any CPU
+		{DF856CAF-F92F-473F-BA0E-62D86565CD7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF856CAF-F92F-473F-BA0E-62D86565CD7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61663E50-A362-4120-9888-7BADD104934B}.Client Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61663E50-A362-4120-9888-7BADD104934B}.Client Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61663E50-A362-4120-9888-7BADD104934B}.Client Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61663E50-A362-4120-9888-7BADD104934B}.Client Release|Any CPU.Build.0 = Release|Any CPU
+		{61663E50-A362-4120-9888-7BADD104934B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61663E50-A362-4120-9888-7BADD104934B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61663E50-A362-4120-9888-7BADD104934B}.Metrom Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61663E50-A362-4120-9888-7BADD104934B}.Metrom Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61663E50-A362-4120-9888-7BADD104934B}.Metrom Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61663E50-A362-4120-9888-7BADD104934B}.Metrom Release|Any CPU.Build.0 = Release|Any CPU
+		{61663E50-A362-4120-9888-7BADD104934B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61663E50-A362-4120-9888-7BADD104934B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E1CF8B8-0D85-414B-B999-0C79D2CDDFA1}.Client Debug|Any CPU.ActiveCfg = Client Debug|Any CPU
+		{1E1CF8B8-0D85-414B-B999-0C79D2CDDFA1}.Client Debug|Any CPU.Build.0 = Client Debug|Any CPU
+		{1E1CF8B8-0D85-414B-B999-0C79D2CDDFA1}.Client Release|Any CPU.ActiveCfg = Client Release|Any CPU
+		{1E1CF8B8-0D85-414B-B999-0C79D2CDDFA1}.Client Release|Any CPU.Build.0 = Client Release|Any CPU
+		{1E1CF8B8-0D85-414B-B999-0C79D2CDDFA1}.Debug|Any CPU.ActiveCfg = Client Debug|Any CPU
+		{1E1CF8B8-0D85-414B-B999-0C79D2CDDFA1}.Debug|Any CPU.Build.0 = Client Debug|Any CPU
+		{1E1CF8B8-0D85-414B-B999-0C79D2CDDFA1}.Metrom Debug|Any CPU.ActiveCfg = Metrom Debug|Any CPU
+		{1E1CF8B8-0D85-414B-B999-0C79D2CDDFA1}.Metrom Debug|Any CPU.Build.0 = Metrom Debug|Any CPU
+		{1E1CF8B8-0D85-414B-B999-0C79D2CDDFA1}.Metrom Release|Any CPU.ActiveCfg = Metrom Release|Any CPU
+		{1E1CF8B8-0D85-414B-B999-0C79D2CDDFA1}.Metrom Release|Any CPU.Build.0 = Metrom Release|Any CPU
+		{1E1CF8B8-0D85-414B-B999-0C79D2CDDFA1}.Release|Any CPU.ActiveCfg = Client Release|Any CPU
+		{1E1CF8B8-0D85-414B-B999-0C79D2CDDFA1}.Release|Any CPU.Build.0 = Client Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {621BDD89-28A5-4ECF-8494-93CC88CAF92D}
+	EndGlobalSection
+EndGlobal
